@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(11 11 29);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(3, 3, 10);
+  
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+  
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: 1.1s;
+}
+
+nav ul li a:hover {
+    color: rgb(129, 129, 193);
+    font-size: 1.11rem;
+}
+
+nav ul li .button {
+    border: 1px solid rgb(3, 3, 10);
+    border-radius: 25px;
+    padding: 8px 20px;
+    background-color: #bf3636;
+
+}
+
+nav ul li .button:hover {
+    color: white;
+    box-shadow: 0 0 100px rgb(226, 226, 226);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 50px 84px;
+}
+
+.left {
+    font-size: 1.6rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+    ;
+}
+
+.first>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    font-size: 2.5rem;
+
+
+
+}
+
+.rightsection img {
+    width: 90%;
+    height: 55vh;
+    border-radius: 10px;
+}
+
+
+
+.name {
+    font-size: 3.2rem;
+    text-shadow: 0 0 10px #fff,
+        0 0 30px #fff,
+        0 0 80px #fff;
+
+}
+
+.role {
+    font-size: 2rem;
+
+}
+
+#element {
+    color: #9c97f1;
+}
+
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0;
+    ;
+}
+
+.secondsection>div {
+    width: 30%;
+}
+
+h1 {
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutleftsection .info {
+    font-size: 1.01rem;
+}
+
+.aboutleftsection {
+    font-size: 1.6rem;
+
+}
+
+.aboutrightsection {
+    font-size: 1.9rem;
+
+}
+
+.aboutrightsection .game {
+    color: red;
+}
+
+.aboutrightsection .gamingname {
+    font-size: 1.01rem;
+}
+
+.gamingname .kratos {
+    color: red;
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+
+.thirdsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 100px 0;
+    display: flex;
+
+}
+
+.thirdsection .vertical {
+    height: 70px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+
+.vertical .logo {
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -14px;
+}
+
+.vertical .bootstrap {
+    width: 47px;
+    position: relative;
+    top: -41px;
+    left: -22px;
+}
+
+.thirdsection .verticaltext {
+    position: relative;
+    top: 34px;
+    width: 100px;
+}
+
+.thirdsection .textboot {
+    position: relative;
+    top: 17px;
+    width: 100px;
+}
+
+footer {
+    background-color: rgb(3, 3, 10);
+
+}
+
+footer {
+    display: flex;
+    padding: 23px 0;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer>div {
+    width: 190px;
+}
+
+.f1 h3 {
+    font-size: 1.5rem;
+    width: 30vh;
+    position: relative;
+    left: 70px;
+    bottom: 53px;
+}
+
+
+.f1 .footerlogo {
+    width: 13vh;
+    border-radius: 200%;
+    position: relative;
+    left: -52px;
+    top: 50px;
+padding: 2px;
+background: linear-gradient(  white, purple,rgb(171, 171, 218));
+}
+
+.f2 ul li {
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+.f2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.f2 ul li a:hover {
+    cursor: pointer;
+    color: rgb(129, 129, 193);
+}
+
+.f3 .icons {
+    width: 40px;
+    position: relative;
+    left: -46px;
+    bottom: -48px;
+}
+
+.f3 .contact-list {
+    position: relative;
+    top: -39px;
+}
+
+ul li .links .contact-item-link {
+    text-decoration: none;
+    color: rgb(168, 165, 165);
+}
+
+ul li .links .contact-item-link:hover {
+    color: rgb(206, 60, 60);
+    transition: .2s;
+}
+
+div.copyright {
+    text-align: center;
+    color: grey;
+    background-color: rgb(3, 3, 10);
+}
+
