@@ -1,6 +1,10 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -19,6 +23,7 @@ nav {
     align-items: center;
     height: 65px;
     background-color: rgb(3, 3, 10);
+
   
 }
 
@@ -90,9 +95,9 @@ main hr {
 }
 
 .rightsection img {
-    width: 90%;
+    width: 100%;
     height: 55vh;
-    border-radius: 10px;
+  object-fit: cover;
 }
 
 
